@@ -5,6 +5,8 @@ class PostsController < ApplicationController
 
   def show
     @post = Post.find(params[:id])
+      if @post.author ? @author = @post.author : @author = Author.first
+      end
   end
 
   def new

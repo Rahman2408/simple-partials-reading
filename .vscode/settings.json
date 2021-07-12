@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "onFocusChange",
+    "workbench.editor.revealIfOpen": true,
+    "workbench.editor.centeredLayoutAutoResize": false,
+    "zenMode.restore": false
+}
